@@ -1,0 +1,75 @@
+window {
+    background-color: rgba(28, 28, 30, 0.15);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    font-family: "SF Pro Display", sans-serif;
+    margin: 0 auto;
+}
+
+#input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px 12px 0 0;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 16px 20px;
+    margin: 0;
+    outline: none;
+    caret-color: #ffffff;
+}
+
+#input:focus {
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: none;
+}
+
+#inner-box {
+    background: transparent;
+    padding: 8px;
+}
+
+#outer-box {
+    background: transparent;
+    padding: 0;
+}
+
+#scroll {
+    background: transparent;
+    margin: 4px 0;
+}
+
+#text {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 14px;
+    font-weight: 400;
+    padding: 2px 8px;
+}
+
+#entry {
+    background: transparent;
+    border-radius: 8px;
+    padding: 6px 8px;
+    margin: 2px 4px;
+    transition: all 0.15s ease;
+}
+
+#entry:selected {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+#entry:selected #text {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+#img {
+    border-radius: 6px;
+    margin-right: 8px;
+}
+
+#unselected {
+    background: transparent;
+}

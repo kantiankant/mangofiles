@@ -1,0 +1,16 @@
+location=center
+prompt=Input...
+term=ghostty
+allow_markup=true
+allow_images=true
+image_size=24
+gtk_dark=true
+no_actions=true
+insensitive=true
+hide_scroll=true
+matching=fuzzy
+width=600
+height=400
+location=top
+xoffset=428
+yoffset=340
