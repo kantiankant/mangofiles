@@ -13,9 +13,11 @@ cp -r * ~/.config/
 ## Stuff inside
 
 - `mango/` (mango configuration file)
-- `waybar` (waybar configuration file)
-- `wofi` (wofi configuration file)
+- `waybar/` (waybar configuration file)
+- `wofi/` (wofi configuration file)
 - `foot/` (foot terminal configuration file)
+
+> TODO: add `foot/` directory after I get back from school
 
 ## Things that these dotfiles depend on
 
@@ -24,10 +26,10 @@ cp -r * ~/.config/
 - `wofi` (application launcher)
 - `foot` (terminal emulator) 
 - `grim + slurp` (screenshots)
-- `swayosed` (OSD) 
+- `swayosd` (OSD)
 
 
-## Binds
+## Basic Binds (please refer to `mango/config.conf` for more keybinds)
 
 - `super+q`: terminal
 - `super+w`: close window
