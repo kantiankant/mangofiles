@@ -17,7 +17,6 @@ cp -r * ~/.config/
 - `wofi/` (wofi configuration file)
 - `foot/` (foot terminal configuration file)
 
-> TODO: add `foot/` directory after I get back from school
 
 ## Things that these dotfiles depend on
 
